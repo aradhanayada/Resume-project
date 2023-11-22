@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.contaner {
+  height: auto;
+  display: grid;
+  justify-content: center;
+}
+.templet {
+  display: grid;
+  grid-template-columns:15rem 25rem ;
+  border: 1px solid black;
+  background-color: #fff;
+  gap: 40px;
+  padding: 20px 40px 20px 20px;
+}
+.box-1 {
+  display: grid;
+  grid-template-rows: 12rem auto;
+}
+.bx-1 {
+  background-color: rgb(79, 79, 214);
+  padding: 10px;
+}
+.photo {
+  display: grid;
+  justify-content: center;
+}
+.detail {
+  margin-top: 10px;
+  display: grid;
+  color: #fff;
+}
+.detail p {
+  display: grid;
+  color: #fff;
+  text-align: center;
+}
+.photo img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.detail-1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.d-1 {
+  display: flex;
+  color: #fff;
+  gap: 5px;
+}
+.d-1 p {
+  color: #fff;
+  font-size: small;
+}
+.fa-brands{
+  font-size: small;
+}
+.bx-2 {
+  background-color: rgb(43, 41, 41);
+  color: #fff;
+  padding:  30px 30px 0px 30px;
+}
+.contact {
+  color: #fff;
+  font-size: larger;
+}
+.cont {
+  font-size: small;
+  padding: 10px;
+}
+.cont input {
+  border: none;
+  background-color:rgb(43, 41, 41);
+}
+.skills {
+  color: #fff;
+  font-size: larger;
+  margin-top: 20px;
+}
+.skill{
+margin: 10px;
+}
+
+.skill p{
+  font-size: small;
+  padding-top: 10px;
+}
+progress{
+  width: 80%;
+  height: 7px;
+}
+.certificate {
+  color: #fff;
+  font-size: larger;
+  margin-top: 20px;
+}
+.certificates {
+  display: flex;
+}
+.fa-solid {
+  margin-left: 10px;
+}
+.cert {
+  padding-top: 10px;
+}
+.cert p {
+  font-size: small;
+  padding: 5px;
+}
+.box-2{
+  
+}
+.obj-1 {
+  color: blue;
+  font-size: large;
+  border-bottom: 2px solid black;
+  margin-left: 10px;
+}
+.obj-2 {
+  font-size: small;
+  padding-top: 10px;
+  color: gray;
+  margin-left: 10px;
+}
+.work {
+  padding-top: 20px;
+  color: blue;
+  font-size: large;
+  border-bottom: 2px solid black;
+  margin-left: 10px;
+}
+.role {
+  padding-top: 10px;
+  display: flex;
+  justify-content:space-between;
+  color: black;
+  font-weight: bolder;
+}
+.role1 {
+  display: flex;
+  gap: 10px;
+}
+.company {
+  margin-left: 30px;
+  font-weight: bolder;
+
+}
+.para {
+  margin-left: 30px;
+  width: 85%;
+  color: grey;
+  font-size: small;
+}
+.fa-solid {
+  background-color: black;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+.fa-arrow-right {
+  color: rgb(241, 240, 240);
+  font-size: x-small;
+  text-align: center;
+  font-weight: lighter;
+}
+.project-1 {
+  margin-left: 10px;
+  margin-top: 20px;
+  color: blue;
+  font-size: large;
+  border-bottom: 2px solid black;
+}
+.education-1 {
+  margin-left: 10px;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+  color: blue;
+  font-size: large;
+}
